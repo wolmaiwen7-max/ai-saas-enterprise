@@ -12,6 +12,8 @@ A five-agent executive team built with [CrewAI](https://github.com/crewAIInc/cre
 
 ## Setup
 
+On Windows-on-ARM machines, create the venv with an x64 Python build. Some dependencies have no ARM64 wheels.
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate        # Windows
